@@ -1,0 +1,91 @@
+.profile__portrait {
+  float: left;
+}
+.profile {
+  width: 1200px;
+}
+.profile__portrait {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+}
+.page-footer {
+  clear: both;
+}
+.button, button {
+    /* overwrites browser defaults and resets the border */
+    border: none;
+    display: inline-block;
+    /* takes the font from the outer container */
+    font-family: inherit;
+    /* styles the button */
+    background-color: #357b70;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    /* width of the border, type, color */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    transition-duration: 0.2s;
+    transition-property: opacity;
+  }
+  
+  button:hover,
+  button:focus,
+  .button:hover,
+  .button:focus {
+    /* lets the mouse appear as a hand when hovering over the button */
+    cursor: pointer;
+    /* reduces the opacity of the button to 80% */
+    opacity: 0.8;
+  }
+  .button, button {
+    /* overwrites browser defaults */
+    /* resets the border */
+    border: none;
+    display: inline-block;
+    /* takes the font from the outer container */
+    font-family: inherit;
+    /* style button */
+    background-color: #357b70;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    /* width of the border, type, color */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    transition: 0.2s opacity;
+  }
+  @keyframes color-change {
+    from {
+      fill: #edc655;
+    }
+    to {
+      fill: #f76414;
+    }
+  }
+  .sun {
+    animation: 3s color-change infinite alternate linear;
+  }
+  @keyframes cloud-move {
+    from {
+      transform: translate(0, 50px);
+    }
+    to {
+      transform: translate(200px, 50px);
+    }
+  }
+  .cloud-front {
+    animation: 20s cloud-move infinite alternate linear;
+  }
+  @keyframes cloud-move-reverse {
+    from {
+      transform: translate(446px, 48px);
+    }
+    to {
+      transform: translate(100px, 48px);
+    }
+  }
+  .cloud-back {
+    animation: 20s cloud-move-reverse infinite alternate linear;
+  }

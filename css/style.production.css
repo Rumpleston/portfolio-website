@@ -1,0 +1,120 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+a {
+    color: #357b70;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  a {
+    color: #0229d6;
+  }
+  
+  a:visited {
+    color: #247fca;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #ff0000;
+  }
+  
+  button {
+    border: none;
+    font-family: inherit;
+    background-color: #0229d6;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  button:hover,
+  button:focus {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .profile__portrait {
+    float: left;
+    width: 250px;
+    margin-right: 40px;
+    border-radius: 50%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .page-footer {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profile {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .profile__text {
+    flex: 1 1 100px;
+  }
+  
+  .page-header {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .page-header__item {
+    flex: 0 1 200px;
+  }
+  
+  .page-header__item:last-child {
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  .navigation-list {
+    list-style-type: none;
+  }
+  
+  .navigation-list li {
+    display: inline-block;
+    margin-left: 15px;
+  }
